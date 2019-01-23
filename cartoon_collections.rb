@@ -22,3 +22,4 @@ end
 # look at .select / .detect / .find
 
 # Initially overlooked .include because it does not return the element if it exists in the collection array or nil if it doesn't.
+# Need to get used to using enumeration methods in combination.
