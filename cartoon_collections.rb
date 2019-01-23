@@ -19,4 +19,4 @@ def find_the_cheese(list)
   list.find {|item| item == cheese_types[0..2]}
 end
 
-# look at .select / .detect / .findstring literal
+# look at .select / .detect / .find
