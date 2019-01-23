@@ -18,7 +18,7 @@ def find_the_cheese(list)
   
   list.find {|item| item == "#{cheese_types}"}
     
-  end
+ 
   
 end
 
