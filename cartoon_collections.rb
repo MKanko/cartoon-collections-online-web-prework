@@ -1,4 +1,4 @@
-require'pry'
+
 
 def roll_call_dwarves(names)
   names.each_with_index {|item, index| puts "#{index + 1} + #{item}"}
@@ -20,3 +20,5 @@ def find_the_cheese(list)
 end
 
 # look at .select / .detect / .find
+
+# Initially overlooked .include because it does not return the element if it exists in the collection array or nil if it doesn't.
