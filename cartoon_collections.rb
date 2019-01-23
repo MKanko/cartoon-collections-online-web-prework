@@ -19,7 +19,7 @@ def find_the_cheese(list)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   list.find {|item| item == cheese_types[0]}
-binding.pry
+
     
 end
 
