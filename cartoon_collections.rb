@@ -15,12 +15,8 @@ end
 
 
 def find_the_cheese(list)
-  
   cheese_types = ["cheddar", "gouda", "camembert"]
-  
-  list.find {|item| item == cheese_types[0]}
-
-    
+  list.find {|item| item == cheese_types[0..2]}
 end
 
-# .select / .detect / .find
+# look at .select / .detect / .find
